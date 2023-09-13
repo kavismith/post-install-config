@@ -3,7 +3,7 @@
 </p>
 
 <h1>osTicket - Post-Install Configuration</h1>
-This tutorial outlines the post-install configuration of the open-source help desk ticketing system osTicket.<br />
+This tutorial outlines the post-install configuration of the open-source help desk ticketing system osTicket. We will be working as an Admin, who sets up the ticketing system and defines the roles and other administrator duties.<br />
 
 
 <h2>Video Demonstration</h2>
