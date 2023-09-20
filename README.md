@@ -37,7 +37,16 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 </p>
 <p>
-Create a Role called "supreme Admin". This will allow someone to create tickets, delete tickets and even assign task to agents or teams. To do so, click on Admin Panel, Agents, and then Roles. Then you want to select add a new role, name the role "Supreme Admin", and then assign permissions for the role. Select all that will apply to the admin role as far as the permissions sucha s permissions to work on tickets and tasks. 
+To create a role called "Supreme Admin," which grants the user the ability to create tickets, delete tickets, and assign tasks to agents or teams, follow these steps:
+  Begin by accessing the Admin Panel on the platform.
+
+- In the Admin Panel, navigate to the "Agents" section.
+- From there, proceed to the "Roles" subsection.
+- To initiate the creation of the new role, click on the option to "Add a New Role."
+- In the provided field, name the role "Supreme Admin."
+- After naming the role, the next step is to assign the necessary permissions to it.
+- Carefully select all the permissions that should be associated with the "Supreme Admin" role. This should include permissions related to working on tickets and tasks.
+By completing these steps, you will successfully create a role called "Supreme Admin" with the specified permissions, allowing individuals in this role to create tickets, delete tickets, and assign tasks to agents or teams as needed.
 </p>
 <br />
 
@@ -45,22 +54,45 @@ Create a Role called "supreme Admin". This will allow someone to create tickets,
 
 ![image](https://github.com/kavismith/post-install-config/assets/143667203/55c1db44-a4a0-496a-a724-a03ed91f60a2)
 
+To configure departments for ticket assignment, follow these steps:
+
+- Begin by accessing the Admin Panel on the platform.
+- In the Admin Panel, navigate to the "Agents" section.
+- Within the "Agents" section, find and click on the "Departments" option.
+- To create a new department, select the "New Department" option.
+- In this example, let's name the new department "System Administrators."
+- For this practice, you can retain all the default settings for the department.
+Optionally, you have the flexibility to go in and further customize the department. This can include assigning a manager, setting up SLAs (Service Level Agreements), specifying whether the department should be private or public, and even adjusting outgoing mail settings.
+
 ![image](https://github.com/kavismith/post-install-config/assets/143667203/7c6a3d83-39e5-4d40-873b-c74590609f72)
 
+By completing these steps, you will have configured a new department called "System Administrators," and you can further tailor its settings based on your specific needs. Departments play a crucial role in ticket assignment, ensuring that customer or team member issues are directed to the appropriate teams for resolution.
 
 </p>
-<p>Now configure some Departments. Tickets are assigmed by departments, so if a customer or team member is having a problem with networking, then a ticket will be assigned to the networking department or if they need help with Maintenance then the ticket will be asigned to the Maintenance Department. Some departments can be archived, which will disabled tickets to no longer be transferable. To create a new department, you want to select Admin Panel, Agents, and  then Departments. Select new department,name the department" System Administrators" for this examples. Keep all the default setting for this practice. You can go in and assign a manager, SLA's make the department private or publicand even change the outgoing mail settings. 
+<p>
+  
 </p>
 <br />
 
 <h2>Create Teams</h2>
 
 ![image](https://github.com/kavismith/post-install-config/assets/143667203/5d57214c-2070-42a8-9320-b50e57f2938a)
+The Teams feature provides the capability to assemble agents from various departments to address specific tickets or address particular issues efficiently. Additionally, you can designate a team lead who will receive notifications on behalf of the team. To access the Teams feature and establish a new team, follow these steps:
+
+- Start by navigating to the Admin Panel within the platform.
+- Within the Admin Panel, go to the "Agents" section.
+- In the "Agents" section, locate and click on the option for "Teams."
+- To create a new team, select the "New Team" option.
+- In this example, let's name the new team "Level II Support."
+- You can then proceed to choose the members you wish to include in this team, ensuring that it consists of the appropriate agents for the task at hand.
+
 ![image](https://github.com/kavismith/post-install-config/assets/143667203/b3c4c8a9-2cf6-47b7-a886-7fcdaa0ba7b7)
+
+By following these steps, you will effectively utilize the Teams feature, enabling you to form specialized groups of agents for addressing specific tickets or issues, with the added option of designating a team lead to receive notifications on behalf of the team.
 
 </p>
 <p>
-Teams allows you to be able to pull agents from different departments to handle certain tickets or a  specific issue. You can also assign a team lead to recieve notification for the team. To access teams and create a new team, go to Admin Panel, Agents, and then select new team. Name the team Level ii support and select the  members you want on the team
+
 </p>
 <br />
 
@@ -72,8 +104,17 @@ Teams allows you to be able to pull agents from different departments to handle 
 
 </p>
 <p>
-Now, allow anyone to create tickets. To do so you need to select the Admin Panel, Settings, then select User settings amnd make sure required registration and login to create tickets is unchecked.
+To enable ticket creation for all users, follow these steps:
 
+- Start by accessing the Admin Panel within the platform.
+
+- Within the Admin Panel, go to the "Settings" section.
+
+- In the "Settings" section, locate and select "User Settings."
+
+- Ensure that the option for "Required Registration and Login to Create Tickets" is unchecked.
+  
+By completing these steps, you will allow anyone to create tickets without requiring mandatory registration and login, streamlining the process for users to submit their concerns or issues.
 </p>
 <br />
 
@@ -81,69 +122,116 @@ Now, allow anyone to create tickets. To do so you need to select the Admin Panel
   
 ![image](https://github.com/kavismith/post-install-config/assets/143667203/49789ff9-b98e-480c-a32d-6650ceffbf93)
 
-![image](https://github.com/kavismith/post-install-config/assets/143667203/8bb78118-34c2-4b89-a349-5fa869c52892)
+Agents are integral to the ticket management process as they handle and resolve tickets. Each agent belongs to specific departments and is assigned specific roles, and administrators have the ability to reset agent passwords. To add a new agent, follow these steps:
+
+- Begin by accessing the Admin Panel within the platform.
+
+- Inside the Admin Panel, go to the "Agents" section.
+
+- To add a new agent, select the "Add New" option.
+
+- In this example, let's name the first agent "Jane Carter." Her email address is "jane.carter@osticket.com," and her username will be "jane.carter."
 
 ![image](https://github.com/kavismith/post-install-config/assets/143667203/d2acc3f6-cc8e-4b7d-b017-cf95befb0bc6)
 
+Additionally, assign Jane Carter to the primary department, which is "Maintenance," and grant her all-access permissions.
+
 ![image](https://github.com/kavismith/post-install-config/assets/143667203/1ef46656-8999-44b2-97b9-913ea0810399)
+
+Now, create another agent named "John Smith." His email address is "john.smith@osticket.com," and his username will be "john.smith."
 
 ![image](https://github.com/kavismith/post-install-config/assets/143667203/4fa26003-a442-4cd0-862d-9bbc08d425b9)
 
+Ensure that John Smith has access to the "Supreme Administrator" role and is designated as a "Supreme Admin."
+
 ![image](https://github.com/kavismith/post-install-config/assets/143667203/a476d19c-9de7-4837-aba3-cba565d295e7)
 
+Set a Password for each Agent.
 </p>
 <p>
-Agents are assigned to work tickets by reponing and solving them. Agents are also assigned to different departments and have a certain role assigned to them. Admins can even reset agents passwords. To add a new Agent you need to go to Admin Panel, Agents and select Add new. Name the first Agent Jane Carter, email is jane.carter@osticket.com, and the apply a username jane.carter. Also, assign Jane Carter to the primary department as Maintenance and give her all access as well. Create another Agent name John Smith, email john.smith@osticket.com, and username john.smith. Mae sure give John Smith asscess to Supreme Administrator and the role as Supreme admin
 </p>
 <br />
 
 <h2>Create Users</h2>
 
+Users have the ability to create accounts for signing in and generating tickets. The User Directory feature facilitates agents in searching for tickets associated with specific users. Furthermore, users can be added to or removed from the User Directory directly from the Agent Panel. To access the User Directory, follow these steps:
+
+- Access the Agent Panel within the platform.
+
+- Inside the Agent Panel, navigate to the "Users" section.
+
+- To add new users to the User Directory, select the "Add New Users" option.
+
 ![image](https://github.com/kavismith/post-install-config/assets/143667203/2b230105-3130-4c01-9cdf-cd8142d6faff)
 
-![image](https://github.com/kavismith/post-install-config/assets/143667203/5b9e4b78-ba2d-48b8-afb1-7a31f9bbbeb2)
-
+The first user will be named "Karen Karen" with the email address "Karen@osticket.com."
 
 ![image](https://github.com/kavismith/post-install-config/assets/143667203/38064188-15af-455f-9930-672407491a33)
 
-![image](https://github.com/kavismith/post-install-config/assets/143667203/7494b2f8-1b29-4f0d-bc5c-6dfb8e024581)
+Following that, the second user will be "Ken Ken" with the email address "ken@osticket.com."
+
+Once created, these users will then be added to the User Directory, where they can be managed for ticket management and support purposes.
 
 
 </p>
 <p>
-Users are allowed to creat accounts to sign in and create tickets. When you access the User Directory , it allows agents to search for tickets by the users.Users can also be added for deleted from the User directory section in the Agent Panel. To locate the User Directory, click in Agent Panel, then select users and then click on add new users. 
+
 </p>
 <br />
 
 
 <h2>Create SLA's</h2>
 
+To establish Service Level Agreements (SLAs) that define specific timeframes for ticket resolution expectations, follow these steps:
+
+First, access the Admin Panel within the platform.
+
+Within the Admin Panel, select the "Manage" option.
+
+Next, click on "SLA" and then choose the "Add New SLA Plan" option.
 
 ![image](https://github.com/kavismith/post-install-config/assets/143667203/888520cd-05a6-4008-9e7e-c5cefeab843b)
+
+Name the first SLA "SEV-A." Set the schedule to "24/7," indicating that if a SEV-A ticket is created on a Saturday at 10 am, it should be resolved by Saturday morning at 11 am.
+
 ![image](https://github.com/kavismith/post-install-config/assets/143667203/ff11302a-c1d4-4ee4-a4df-7c12b10d1c7e)
+
+Create a new SLA named "SEV-B" with a 4-hour grace period and a 24/7 schedule. This means that if a ticket is received on a Sunday at 3 pm, it should be completed by 7 pm on that same Sunday.
+
 ![image](https://github.com/kavismith/post-install-config/assets/143667203/cba6043d-041f-4ad2-88eb-399299f0c4fc)
 
+Lastly, establish the "SEV-C" SLA with an 8-hour grace period and a schedule aligned with normal business hours, Monday to Friday, from 8 am to 5 pm, including US holidays. If an issue arises on a Friday at 2 pm, you have until 2 pm on the following Monday to close the ticket.
 
-
+By following these steps, you will have created three distinct SLAs (SEV-A, SEV-B, and SEV-C) that outline specific timeframes for ticket resolution based on different criteria, ensuring efficient and consistent handling of support requests.
 </p>
 <p>
-Now, create an SLA(Service Level Agreement) which provides a certain time fram that a Help Desk Administrator expects tickets to be closed. To create SLAs you need to click on the Admin Panel, select manage, and then click on SLA and then add new SLA Plan. Name the first SLA SEV-A, the schedue 24/7 which means is a SEV-A comes on a Saturday at 10am it needs to resolved Saturday morninng at 11am. Creat a new SLA named SEV-B, with a 4 hour grace period and 24/7 schedule. So, if a ticket comes in on Sunday at 3pm then it needs to be completed by 7pm on sunday. Last we will create SEV-C SLA with a grace period of 8 hours witha  schedule of normal business hours Monday to Friday 8am-5pm including US Holidays. If anythinng happens on a Friday at 2pm, you have until 2pm on monday to close the ticket. 
+
 </p>
 <br />
 
 <h2>Create Help Topics</h2>
 
+Lastly, in our administrative tasks, we will create Help Topics as an Admin. Help Topics serve as a critical factor in determining both the assignment of agents to tickets and the appropriate department responsible for handling specific issues.
 
 ![image](https://github.com/kavismith/post-install-config/assets/143667203/1e4a6fa1-0891-4cfc-a2ce-ec1dc6f4f60e)
+
+Name the first Help Topic as "Busness Crital Outage."
+
 ![image](https://github.com/kavismith/post-install-config/assets/143667203/ad7d5c6a-4712-4119-8cb1-1c022550f994)
+
+Name the second Help Topic as "Personal Computer Issues."
+
 ![image](https://github.com/kavismith/post-install-config/assets/143667203/f747d8b4-0f0e-4b9f-8a0d-b1e34e7d244b)
+
+Designate the third Help Topic for "Equipment Request" requests.
+
 ![image](https://github.com/kavismith/post-install-config/assets/143667203/08b9d0c7-7e11-4af4-a51e-8358e0c88d7d)
+
+Designate the fourth Help Topic for "Password Reset" requests.
+
 ![image](https://github.com/kavismith/post-install-config/assets/143667203/279d566d-c649-4e16-bb50-dc545da1187f)
-
-
 
 </p>
 <p>
-Last, we will be creating Help Topics as an Admin. Help Topics detwermines what agents will be assigned to the ticket as well as the type of department
 </p>
 <br />
